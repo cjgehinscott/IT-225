@@ -1,0 +1,16 @@
+Title: Nature's Source
+
+Place this text in a h1 header:
+Welcome to the Website of Nature's Source
+
+Place this text in a paragraph element
+This is our first foray onto the World Wide Web.
+We are a small company dedicated to the health
+of our customers through natural remedies.
+We have a wide range of products that include:
+
+Create an unordered list from this text:
+  - books, and multimedia documents that help you get
+    healthy and stay healthy
+  - herbal medicines
+  - equipment for injury free body toning exercises
