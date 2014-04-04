@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<job-posting>
+	<title> Job Title: <emphasis>Web master</emphasis></title>
+	<description>We are looking for a Web master to oversee the management of our company's Web site. </description>
+	<skill-list>
+		<skill>Basic writing skills</skill> 
+		<skill>Good communication skills</skill>
+		<skill> XML</skill>
+	</skill-list>
+</job-posting>

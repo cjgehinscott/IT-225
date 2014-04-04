@@ -1,0 +1,43 @@
+courseInformation{
+display:block;
+}
+course{
+display:block;
+margin-left: 375pt;
+}
+id{
+display:block;
+color:red;
+margin-left: 47pt;
+}
+courseName{
+display:block;
+color:red;
+;
+}
+professor{
+display:block;
+color:black;
+margin-left: 22pt;
+}
+location{
+display:block;
+color:black;
+margin-left: 22pt;
+}
+time{
+display:block;
+color:blue;
+margin-left: 22pt;
+}
+day{
+margin-left: 22pt;
+}
+startDate{
+display:block;
+color:green;
+}
+endDate{
+display:block;
+color:green;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Assignment2.xsl"?>
+<menu>
+	<foodItem>
+		<name>Apples</name>
+		<price>1.45</price>
+		<calories>80</calories>
+		<dietaryRestriction>None</dietaryRestriction>
+		<availability>In-Stock </availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Coffee</name>
+		<price>5.25</price>
+		<calories>110</calories>
+		<dietaryRestriction>Decaf</dietaryRestriction>
+		<availability>Out-of-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Chicken</name>
+		<price>7.55</price>
+		<calories>267</calories>
+		<dietaryRestriction>Uncooked Meat Restriction</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Bread</name>
+		<price>3.78</price>
+		<calories>97</calories>
+		<dietaryRestriction>Gluten-Free</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Chocolate</name>
+		<price>2.89</price>
+		<calories>175</calories>
+		<dietaryRestriction>Sugar Free</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Milk</name>
+		<price>3.67</price>
+		<calories>200</calories>
+		<dietaryRestriction>Dairy</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Cookies</name>
+		<price>4.26</price>
+		<calories>156</calories>
+		<dietaryRestriction>Fat-Free</dietaryRestriction>
+		<availability>Not-in-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Potato Chips</name>
+		<price>3.29</price>
+		<calories>467</calories>
+		<dietaryRestriction>No Trans Fats</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Yogurt</name>
+		<price>2.36</price>
+		<calories>115</calories>
+		<dietaryRestriction>Dairy</dietaryRestriction>
+		<availability>Not-in-Stock</availability>
+	</foodItem>
+	
+	<foodItem>
+		<name>Almonds</name>
+		<price>4.67</price>
+		<calories>210</calories>
+		<dietaryRestriction>Nut Allergy Restriction</dietaryRestriction>
+		<availability>In-Stock</availability>
+	</foodItem>
+</menu>

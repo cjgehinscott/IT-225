@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<courseInformation>
+		<course ID="IT225">
+			<courseName>Advanced Web Development</courseName>
+			<professor>Professor: Dr. Narock</professor>
+			<location>Location: Ballston</location>
+			<time>Time: 6:30pm-9:15pm</time>
+			<day>Tuesday</day>
+			<startDate>Start Date: 01-14-2014</startDate>
+			<endDate>End Date: 05-08-2014</endDate>
+		</course>
+		<course ID="IT230">
+			<courseName>Advanced Java Programming</courseName>
+			<professor>Professor: Pipop</professor>
+			<location>Location: Ballston</location>
+			<time>Time: 6:30pm-9:15pm</time>
+			<day>Thursday</day>
+			<startDate>Start Date: 01-16-2014</startDate>
+			<endDate>End Date: 05-10-2014</endDate>
+		</course>
+	</courseInformation>

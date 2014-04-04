@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Currency Conversion</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="CurrencyConversion.js"></script>
+		<link rel="stylesheet" type="text/css" href="CurrencyConversion.css"/>
+	</head>
+	<body>
+		<h1>Currency Converter</h1>
+		<p>This page will allow you to convert Euros to US Dollars and the Australian Dollar to 
+		US Dollars</p>
+	<div>
+		<form name="conversionEU" id="conversionEU" onsubmit="convertEU()">
+			<fieldset>
+				<legend>Euro</legend>
+					Enter Euros to be converted: <input type="text" id="euro"/>
+					<input type="submit">
+			</fieldset>
+		</form>
+		<form name="conversionAussie" id="conversionAussie" onsubmit="convertAussie()">
+			<fieldset>
+				<legend>Australian Dollars</legend>
+					Enter Australian Dollars to be converted: <input type="text" id="aussie"/>
+					<input type="submit">
+			</fieldset>	
+		</form>	
+	 </div>			
+	</body>
+</html>

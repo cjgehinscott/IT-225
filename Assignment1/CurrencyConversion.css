@@ -1,0 +1,11 @@
+h1{
+text-align:center;
+color:white;
+border: 1px solid blue;
+font: bold 100% Verdana;
+background-color: red;
+}
+
+fieldset{
+border: 1px solid blue;
+}

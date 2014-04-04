@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="shiporder.xsd">
+	<student ID="847629">
+		<name>John Smith</name>
+		<gender>Male</gender>
+		<level>Freshman</level>
+	</student>
+		
+	<student ID="837643">
+	    <name>Jane Doe</name>
+		<gender>Female</gender>
+		<level>Senior</level>
+	</student>
+</class>
