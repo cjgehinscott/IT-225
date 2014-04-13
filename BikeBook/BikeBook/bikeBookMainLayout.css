@@ -1,0 +1,182 @@
+body {
+	background-image:initial;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#4B9ED7;
+	background-size:initial;
+}
+
+#webOs {
+	display:block;
+	background-image:initial;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#4B9ED7;
+	background-size:initial;
+	overflow:hidden;
+	height:100px;
+	text-align:center;
+	margin:30px 0px 30px 0px;
+	padding:5px 0px 5px 0px;
+}
+
+#webOs ul {
+	display:block;
+	position:relative;
+	margin:0;
+	padding:0px 5px 0px 5px;
+}
+
+#webOs ul li {
+	float:left;
+	height:100px;
+	list-style-type:none;
+	background-image:initial;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#FFFFFF;
+	background-size:initial;
+	-webkit-transform:skew(-10deg);
+	transform:skew(-10deg);
+	-o-transform:skew(-10deg);
+	-ms-transform:skew(-10deg);
+	-moz-transform:skew(-10deg);
+	position:relative;
+	top:0;
+	z-index:1;
+	transition-property:all;
+	-webkit-transition-property:all;
+	-o-transition-property:all;
+	-ms-transition-property:all;
+	-moz-transition-property:all;
+	transition-duration:200ms;
+	-webkit-transition-duration:200ms;
+	-o-transition-duration:200ms;
+	-ms-transition-duration:200ms;
+	-moz-transition-duration:200ms;
+	transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-webkit-transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-ms-transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition-delay:initial;
+	-webkit-transition-delay:initial;
+	-o-transition-delay:initial;
+	-ms-transition-delay:initial;
+	-moz-transition-delay:initial;
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
+	border:0.5px solid #D2D1D1;
+	margin:0;
+	padding:0;
+}
+
+#webOs ul::after, #webOs ul::before {
+	content:'';
+	display:block;
+	background-image:initial;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#4B9ED7;
+	background-size:initial;
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
+	z-index:5;
+	width:10px;
+	height:100px;
+	position:absolute;
+	top:0;
+	-webkit-transform:skew(-10deg);
+	transform:skew(-10deg);
+	-o-transform:skew(-10deg);
+	-ms-transform:skew(-10deg);
+	-moz-transform:skew(-10deg);
+}
+
+#webOs ul li:hover {
+	background-image:initial;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#E7E7E7;
+	background-size:initial;
+}
+
+#webOs ul::before {
+	left:-2px;
+	border-right:2px solid #D2D1D1;
+}
+
+#webOs ul::after {
+	right:-2px;
+	border-left:2px solid #D2D1D1;
+}
+
+#webOs ul li a {
+	display:block;
+	height:100px;
+	line-height:100px;
+	text-decoration:none;
+	color:#A0A0A0;
+	font-family:arial;
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+.cf::before, .cf::after {
+	content:' ';
+	display:table;
+}
+
+.cf::after {
+	clear:both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+}
+

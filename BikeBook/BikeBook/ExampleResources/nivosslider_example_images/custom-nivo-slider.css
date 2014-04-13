@@ -1,0 +1,105 @@
+/*
+ * Note: Include the nivo-slider.css file that comes
+ * with the main download before including this file.
+ */
+
+#slider {
+	position:relative;
+	-webkit-box-shadow:rgb(51, 51, 51) 0px 0px 10px;
+	box-shadow:rgb(51, 51, 51) 0px 0px 10px;
+	-o-box-shadow:rgb(51, 51, 51) 0px 0px 10px;
+	-ms-box-shadow:rgb(51, 51, 51) 0px 0px 10px;
+	-moz-box-shadow:rgb(51, 51, 51) 0px 0px 10px;
+	margin:30px 30px 60px 30px;
+}
+
+#slider img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#slider a {
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
+	border:0px initial #000000;
+}
+
+.nivo-controlnav {
+	position:absolute;
+	left:47%;
+	bottom:-30px;
+}
+
+.nivo-controlnav a {
+	display:block;
+	width:10px;
+	height:10px;
+	background-image:url(bullets.png);
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#000000;
+	background-size:initial;
+	text-indent:-9999px;
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
+	margin-right:3px;
+	float:left;
+	border:0px initial #000000;
+}
+
+.nivo-controlnav a.active {
+	background-position:-10px 0px;
+	background-position-x:-10px;
+	background-position-y:0;
+}
+
+.nivo-directionnav a {
+	display:block;
+	width:32px;
+	height:34px;
+	background-image:url(arrows.png);
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#000000;
+	background-size:initial;
+	text-indent:-9999px;
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
+	border:0px initial #000000;
+}
+
+a.nivo-nextnav {
+	background-position:-32px 0px;
+	background-position-x:-32px;
+	background-position-y:0;
+	right:10px;
+}
+
+a.nivo-prevnav {
+	left:10px;
+}
+
